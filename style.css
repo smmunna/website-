@@ -1,0 +1,138 @@
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+@media only screen and (max-width: 768px){
+      .header{
+          height: 60px;
+      }
+
+}
+.logo{
+    float: left;
+    padding: 24px;
+    font-size: 25px;
+}
+@media only screen and (max-width: 768px){
+      .logo{
+          font-size: 10px;
+          font-weight: bold;
+      }
+}
+.wel{
+    float: right;
+    padding: 24px;
+    letter-spacing: 12px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px){
+   .wel{
+       letter-spacing: 0;
+       float: right;
+       font-size: 10px;
+   }
+}
+.nav{
+    padding-top:7px;
+    
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.nav li:last-child {
+    border-right: none;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.nav .active {
+    background-color: #4CAF50;
+}
+
+@media only screen and (max-width : 768px){
+    .nav{
+        float: left;
+        line-height: 1.8;
+        font-size: 11px;
+        margin: 0;
+        padding: 0%;
+    }
+    .nav ul li{
+        font-size: 11.5px;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    hr{
+        float: left;
+       
+    }
+}
+.running{
+    background-color: yellow;
+    height: 20px;
+    padding: 10px;
+}
+@media only screen and (max-width : 768px){
+       .running{
+           float: left;
+           padding: 10px;
+       }
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 315px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.footer{
+    float: left;
+    background-color: cyan;
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+}
+@media only screen and (max-width : 768px){
+.footer{
+    width: 100%;
+}
+}
